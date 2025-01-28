@@ -1,0 +1,11 @@
+prefix=/home/tdhoang/Documents/Tools/buildroot-2024.02.10/output/host
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libkmod
+Description: Library to deal with kernel modules
+Version: 31
+Libs: -L${libdir} -lkmod
+Libs.private:   
+Cflags: -I${includedir}

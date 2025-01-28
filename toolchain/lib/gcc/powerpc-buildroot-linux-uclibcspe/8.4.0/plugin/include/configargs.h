@@ -1,0 +1,7 @@
+/* Generated automatically. */
+static const char configuration_arguments[] = "./configure --prefix=/home/tdhoang/Documents/Tools/buildroot-2024.02.10/output/host --sysconfdir=/home/tdhoang/Documents/Tools/buildroot-2024.02.10/output/host/etc --enable-static --target=powerpc-buildroot-linux-uclibcspe --with-sysroot=/home/tdhoang/Documents/Tools/buildroot-2024.02.10/output/host/powerpc-buildroot-linux-uclibcspe/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --enable-plugins --enable-lto --with-gmp=/home/tdhoang/Documents/Tools/buildroot-2024.02.10/output/host --with-mpc=/home/tdhoang/Documents/Tools/buildroot-2024.02.10/output/host --with-mpfr=/home/tdhoang/Documents/Tools/buildroot-2024.02.10/output/host --with-pkgversion='Buildroot 2024.02.10' --with-bugurl=http://bugs.buildroot.net/ --without-zstd --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-cpu-32=8548 --enable-obsolete --enable-e500_double --with-long-double-128 --enable-secureplt --enable-languages=c --with-build-time-tools=/home/tdhoang/Documents/Tools/buildroot-2024.02.10/output/host/powerpc-buildroot-linux-uclibcspe/bin --enable-shared --disable-libgomp";
+static const char thread_model[] = "posix";
+
+static const struct {
+  const char *name, *value;
+} configure_default_options[] = { { "cpu", "8548" }, { "cpu_32", "8548" } };

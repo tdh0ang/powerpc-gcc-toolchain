@@ -1,0 +1,5 @@
+#!/home/tdhoang/Documents/Tools/buildroot-2024.02.10/output/host/bin/python3.11
+import sys
+from lib2to3.main import main
+
+sys.exit(main("lib2to3.fixes"))
